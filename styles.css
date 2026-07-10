@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(135deg, #866e5a 0%, #eef4ff 100%);
+  min-height: 100vh;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  background-color: #dfdad7;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.logo-img {
+  width: 950px;
+  height: 300px;
+  max-width: 100%;
+  
+ 
+@media (max-width: 576px) {
+  .logo-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+}
+
+#mensagem-erro,
+#mensagem-sucesso {
+  display: none;
+}
